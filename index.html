@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
     <title>My wallet</title>
 </head>
 <body>
@@ -18,30 +19,55 @@
             
             <form action="">
                 <h3>Disponible</h3>
-                <input type="texto" placeholder="disponible" value="$" name="#" id="">
+                <input type="texto" placeholder="" value="$" name="#" id="">
             </form>
             <div>
-                <img src="/imagenes/foto-mia.jpeg" alt="">
+                <img src="imagenes/foto-mia.jpeg" alt="">
             </div>
-          
+            <button class="switch" id="switch">
+                <span><i class="bi bi-brightness-high"></i></span>
+                <span><i class="bi bi-brightness-high-fill"></i></span>
+            </button>
         </nav>
     </header> 
     <main>
             <section class="contHero">
+                <div class="detalle">
+                    <h1>
+                        Gastos Realizados
+                    </h1>
+                </div>
+
                 <div class="tarjeta1">
-                    <h1>Gastos</h1>
+                    <div class="inp1">
+                        <input type="text" name="#" id="" placeholder="descripcion">
+                    </div>
+                    <div class="inp2">
+                        <input type="text" name="#" id=""  placeholder="monto">
+                    </div>
+                    <button class="boton">add</button> 
                 </div> 
 
-                <div class="tarjeta2">
-                    <h1>Montos</h1>
-                </div>
+                
             </section> 
 
             <section class="contMov">    
                 <div class="tarjeta3">
-                    <h1>detalle movimientos</h1>
+                    <h1>Historial de Gastos</h1>
                 </div>
             </section>
+            <section class="resto">
+                <div>
+                    <h3>Total Ingresos</h3>
+                </div>
+                <div>
+                    <h3>Total Gastos</h3>
+                </div>
+                <div>
+                    <h3>Disponible</h3>
+                </div>
+            </section>
+            
     </main>
     
     
